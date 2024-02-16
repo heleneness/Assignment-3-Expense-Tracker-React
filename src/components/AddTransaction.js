@@ -1,6 +1,8 @@
 import React, {useState, useContext} from 'react';
 import { GlobalContext } from '../context/GlobalState';
 
+
+// Define state variables using the useState hook
 const AddTransaction = () => {
 	const [text, setText] = useState('');
 	const [amount, setAmount] = useState(0);
@@ -8,6 +10,8 @@ const AddTransaction = () => {
   const [date, setDate] = useState('');
   const { addTransaction } = useContext(GlobalContext);
   
+
+// Define a function to handle form submission
   const onSubmit = (e) => {
     e.preventDefault();
 
@@ -19,6 +23,8 @@ const AddTransaction = () => {
       date
     }
 
+
+// Call the addTransaction
     addTransaction(newTransaction);
     setText('');
     setAmount(0);
@@ -26,6 +32,8 @@ const AddTransaction = () => {
     setDate('');
   }
 
+
+  // Render the component
   return (
 	<>
 	  <h3>Add new transaction</h3>

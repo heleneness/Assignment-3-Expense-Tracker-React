@@ -7,8 +7,10 @@ React JavaScript Tutorial in Visual Studio Code
 
 npx create-react-app expence_tracker
 
-Inspired by Traversy Media - youTube - using hooks (useState, useContext, useReducer) 
-and the context API.
+Inspired by Traversy Media -tutorial - youTube - using hooks (useState, useContext, useReducer) and the context API.
 
-Made the styling as I prefer. 
+Modified the app according to preferences.
+
 Color palettes from colorswall.com - deep purple
+
+Link to Netlify: 

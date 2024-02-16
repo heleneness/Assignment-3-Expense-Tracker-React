@@ -1,5 +1,6 @@
 import React from 'react'
 
+// Rendering the header - displaying the title
 const Header = () => {
   return (
 	<h2>

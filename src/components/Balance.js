@@ -1,6 +1,7 @@
 import React, { useContext } from 'react';
 import { GlobalContext } from '../context/GlobalState';
 
+// Access, extract, calculate transactions - then render the components
 const Balance = () => {
 	const { transactions } = useContext(GlobalContext);
 	const amounts = transactions.map(transaction => transaction.amount);
