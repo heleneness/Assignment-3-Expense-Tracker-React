@@ -13,4 +13,6 @@ Modified the app according to preferences.
 
 Color palettes from colorswall.com - deep purple
 
+Link to GitHub: https://github.com/heleneness/Assignment-3-Expense-Tracker-React.git
+
 Link to Netlify: 
